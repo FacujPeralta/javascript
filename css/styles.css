@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+.navegador ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  justify-content: center;
+}
+.navegador ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.navegador ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.navegador ul li a:hover {
+  background-color: rgb(240, 240, 240);
+  color: rgb(0, 0, 0);
+}
+.navegador ul li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+.navegador img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 20px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
